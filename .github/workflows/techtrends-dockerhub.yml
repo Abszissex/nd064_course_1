@@ -32,4 +32,4 @@ jobs:
           file: ./project/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: udacity-nd064-1/techtrends:latest
+          tags: abszissex/techtrends:latest
