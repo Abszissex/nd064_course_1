@@ -5,7 +5,7 @@ Place the Kubernetes declarative manifests in this directory.
 
 ## Troubleshooting
 
-When your pod in k3s gets the following [https://github.com/rancher/k3os/issues/702](error):
+When your pod in k3s gets the following [error](https://github.com/rancher/k3os/issues/702):
 ```sh
 Error: failed to create containerd container: get apparmor_parser version: exec: "apparmor_parser": executable file not found in $PATH
 ```
