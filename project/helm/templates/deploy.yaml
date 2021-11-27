@@ -29,10 +29,10 @@ spec:
             cpu:  {{ .Values.deployment.resources.limits.cpu}}
         livenessProbe:
           httpGet:
-            path:  {{ .Values.deployment.livenessProbePath}}
-            port:  {{ .Values.deployment.containerPort}}
+            path:  {{ .Values.deployment.livenessProbe.path}}
+            port:  {{ .Values.deployment.livenessProbe.port}}
         readinessProbe:
           httpGet:
-            path:  {{ .Values.deployment.readinessProbePath}}
-            port:  {{ .Values.deployment.containerPort}}
+            path:  {{ .Values.deployment.readinessProbe.path}}
+            port:  {{ .Values.deployment.readinessProbe.port}}
 status: {}
